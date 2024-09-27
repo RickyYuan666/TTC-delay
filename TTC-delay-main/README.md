@@ -2,8 +2,10 @@
 
 ## Overview
 
-This repo provides students with a foundation for their own projects associated with *Telling Stories with Data*. You do not need every aspect for every paper and you should delete aspects that you do not need.
-
+This repository contains data analysis and visualizations related to subway delays at the Toronto Transit Commission (TTC) in 2023. 
+The project uses open data from the OpenDataToronto portal to analyze delay patterns at individual stations and subway lines. 
+The goal of the project was to identify key trends in subway delays and provide insights that can help improve transit efficiency. 
+The analysis has detailed documentation, R scripts, and visualization outputs. It is good for people who are interested in the reason for the TTC delay.
 
 ## File Structure
 
@@ -19,7 +21,7 @@ The repo is structured as:
 
 ## Statement on LLM usage
 
-Aspects of the code were written with the help of the auto-complete tool, Codriver. The abstract and introduction were written with the help of ChatHorse and the entire chat history is available in inputs/llms/usage.txt.
+Part of the code was written with the help of the AI tool ChatGPT. The entire chat can be viewed in C:\Users\win\Desktop\TTC-delay-main\Inputs\llm.
 
 ## Some checks
 

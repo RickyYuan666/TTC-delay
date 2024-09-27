@@ -1,0 +1,231 @@
+---
+title: "A Comprehensive Analysis of Delay Patterns and Operational Efficiency in the Toronto Transit Commission (TTC) Subway System"
+author:
+  - Ricky Yuan
+thanks: "A GitHub Repository containing all data, R code, and other files used in this investigation is located here: <https://github.com/RickyYuan666/TTC-delay>"
+date: 09-26-2024
+date-format: long
+abstract: "This paper uses publicly available data to explore the patterns and causes of delays in the Toronto Transit Commission (TTC) subway network. Through exploratory data analysis and statistical modeling, the study identifies the most common causes of delays, stations with frequent delays, and the operational impact of these delays on service gaps and vehicle performance. Not only that, this paper also analyzes peak delay times and their correlation with specific subway lines and stations. These findings provide transit operators with solutions to reduce delays and improve the passenger experience. Therefore, this improvement is critical to increasing operational efficiency. This study also provides practical recommendations for reducing future disruptions to the TTC subway system by addressing these issues."
+format: pdf
+number-sections: true
+# The toc parameter used to create a table of contents was obtained from
+# Quarto documentation:
+# https://quarto.org/docs/reference/formats/pdf.html
+toc: true
+bibliography: references.bib
+---
+
+```{r}
+#| echo: false
+#| warning: false
+#### Loading Packages ####
+
+# install.packages("tidyverse")
+# install.packages("opendatatoronto")
+library(tidyverse)
+library(opendatatoronto)
+# Retrieve a list of all available data packages from the OpenDataToronto portal
+packages <- list_packages(150)
+# Display the list of available packages
+packages
+```
+
+# Introduction {#sec-introduction}
+
+Public transportation systems are critical to the efficient operation of large urban centers, providing reliable transportation for millions of daily commuters. The Toronto Transit Commission (TTC) subway system is one of the most critical networks in North America and is the primary mode of transportation for the city's residents. However, the Toronto Transit Commission (TTC) subway system suffers from frequent delays that reduce the overall efficiency of the subway system. As the city grows and the demand for efficient public transportation increases, understanding the causes and patterns of these delays is critical to improving efficiency and transit system reliability.
+
+Previous studies have examined the various factors affecting subway delays. For example, @Louie2017 explored causal (e.g., infrastructure problems) and non-causal (e.g., human error) factors contributing to subway disruptions. Their research emphasizes the complexity of managing the subway system. The reason is multiple interacting factors can prolong delays in a subway system. Additionally, @Schleifer2022 demonstrated that delay frequency varies significantly by ridership patterns, especially at major transfer points such as Union and Kipling stations. These findings suggest that understanding the specific characteristics of passenger flows and stations is critical to addressing delays within the system.
+
+This paper aims to analyze TTC subway delay data for the year 2023 to reveal patterns of delay occurrence, duration, and the most affected stations and subway lines. This study uses data obtained from OpenDataToronto, visual modeling analysis, and statistical methods to examine trends. Examples include delays over time, the frequency at each station, and the total duration of delays on each subway line. Building on research by @Louie2017 and @Schleifer2022, this analysis focuses on operational inefficiencies and their relationship to specific stations and lines. The analysis results provide actionable insights and recommendations for reducing delays and improving the rider experience within the Toronto subway system.
+
+
+# Data {#sec-data}
+
+## Overview {#sec-data-overview}
+
+This study uses Toronto Transit Commission (TTC) data from the OpenDataToronto portal for the year 2023. This dataset provides key information on delay events such as the station where the delay occurred, the cause of the delay (e.g., mechanical failure, passenger-related disruptions), the duration of the delay (in minutes), and the time of day. This clear data enables us to distinguish between peak and off-peak hours. These variables allow us to comprehensively understand the patterns and causes of delays on the Toronto subway network.
+
+In addition to the basic structure of the dataset, we constructed several variables during the cleaning process to enhance the analysis. For example, delays were categorized based on their duration, with 0-5 minutes being short, 5-15 minutes being medium, and more than 15 minutes being long. In addition, the dataset was subdivided to differentiate between delays occurring during peak and off-peak hours, which provides a more nuanced understanding of the impact of the time of day when delays occur on the incidence of delays.
+
+This dataset is particularly important for identifying operational inefficiencies within the TTC system. As previous research has shown, causal factors such as infrastructure failures and non-causal factors such as human error can significantly impact subway delay duration (@Louie2017). In addition, ridership levels and station-specific characteristics have also played a crucial role in delays, especially at major transfer points with high concentrations of riders such as Union and Kipling stations (@Schleifer2022). By examining these variables, this study aims to gain insight into the most common causes and patterns of delays, which can inform strategies to improve system efficiency.
+
+The analysis employs a variety of visualization and statistical methods to explore temporal, spatial, and route-specific delay patterns. Peak periods of inefficiency are identified by mapping delay durations over time, while spatial visualizations highlight the stations with the most frequent delays. In addition, bar charts can be used to compare the total delay duration of different subway lines, revealing which lines are most prone to failure. By using these methods, the causes of TTC delays can be identified, and solutions can be provided to improve transit system performance.
+
+The analysis results show that the average delay across the network is about 7 minutes. However, delays are significantly longer at Union and Kipling stations, especially during peak hours. This phenomenon has significant scope for operational improvements at specific stations and periods.
+
+The data was cleaned and organized using the janitor [@citejanitor] and tidyverse [@citetidyverse] packages in R [@citeR], and the opendatatoronto [@citeopendatatoronto] package from the OpenDataToronto portal to obtain raw data. After cleaning, the dataset was tested for accuracy and the cleaned dataset was used for further analysis.
+
+## Results {#sec-data-results}
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+#### Loading the Cleaned Dataset ####
+marriage_licence_packages <- search_packages("TTC Subway Delay Data")
+marriage_licence_packages
+# Retrieve a list of all resources (datasets) available within the found package
+marriage_licence_resources <- marriage_licence_packages %>%
+  list_package_resources()
+# Display the list of resources available in the "Marriage Licence Statistics" package
+marriage_licence_resources
+
+marriage_licence_statistics <- marriage_licence_resources[10,] %>% get_resource()
+data=marriage_licence_statistics
+
+```
+
+After loading the dataset using the R programming language [@citeR] and the `opendatatoronto` package [@citeopendatatoronto], the `tidyverse` [@citetidyverse] package was used to generate graphs. In doing so, R code was adapted from @tellingstorieswithdata.
+
+## Measurement {#sec-data-measurement}
+The dataset used in this study is from the OpenDataToronto portal and focuses on Toronto Transit Commission (TTC) subway delay data for the year 2023. These data are collected by the Toronto Transit Commission (TTC) during its daily operations, using a combination of automated record-keeping systems and manual reporting to track delays across subway lines and stations. Critical variables in the dataset include the station where the delay occurred, the exact date and time of the delay, the type of delay (e.g., "mechanical failure," "signaling problems," "passenger assistance," or "weather conditions"), and the duration of the delay in minutes. Also, station variables are recorded manually or automatically, which can provide spatial information about where the delay occurred. Also, dates and times are recorded using the TTC's internal time tracking system for time analysis. Types of delays are reported by staff or maintenance teams, depending on the event, and the TTC calculates the duration of delays from the time of disruption to the return to regular service using either the automated system or manual recording. These measurements provide a comprehensive understanding of delay patterns in the subway system, documenting when and where delays occur and the causes and durations of delays. Through this robust data collection process, this study can effectively identify spatial and temporal trends in delays.
+
+\newpage
+
+```{r}
+#| echo: false
+#| warning: false
+#| label: fig-delay-duration-over-time
+#| fig-cap: "Average delay duration over time in the TTC subway system in 2023, aggregated monthly."
+
+#### First Graph ####
+
+library(ggplot2)
+library(dplyr)
+library(lubridate)
+
+# Convert Date to Date format
+data$Date <- as.Date(data$Date)
+
+# Aggregate data by month to avoid overcrowding
+data$Month <- floor_date(data$Date, "month")
+monthly_delay <- data %>%
+  group_by(Month) %>%
+  summarise(Avg_Delay = mean(`Min Delay`, na.rm = TRUE))
+
+# Plot: Average delay duration over time (monthly aggregated)
+ggplot(monthly_delay, aes(x = Month, y = Avg_Delay)) +
+  geom_line(color = "darkgreen", size = 1) +
+  labs(title = "Average Delay Duration Over Time (Monthly Aggregated)",
+       x = "Month",
+       y = "Average Delay Duration (Minutes)") +
+  scale_x_date(date_labels = "%b %Y", date_breaks = "1 month") +
+  theme_minimal(base_size = 14) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+```
+
+@fig-delay-duration-over-time shows the average delay duration (in minutes) for the Toronto Transit Commission (TTC) subway system in 2023, summarized by month. The data shows the variation in delay duration over a year, with the average delay per delay event ranging from 2.75 minutes to 3.5 minutes.
+
+The chart shows that from January through February, the average delay duration decreased slightly to just under 3 minutes. However, from March through June, the data shows an upward trend, peaking in June at approximately 3.5 minutes. This increase may be related to external factors such as infrastructure maintenance, system upgrades, or weather challenges. This suggests that the TTC may have experienced operational inefficiencies during this period. From June through October, the situation improved significantly, with average delays decreasing, reaching a low of approximately 2.6 minutes in October. This decrease may indicate that the tunnel company made operational adjustments to minimize delays during this period.11 In November, there was again a slight increase in the duration of delays, which may be attributed to the inconvenience caused by increased ridership and the early winter weather in Toronto. However, the trend improved in December, with the average delay reduced to nearly three minutes, suggesting that operational efficiencies are picking up as the TTC moves with the warmer weather.
+
+The overall trend underscores the importance of delays to the entire transit system, especially during seasonal shifts. The TTC should reduce delays with timely maintenance and proper resource allocation. The data suggests that targeted summer and late fall interventions can be particularly effective in controlling operational disruptions. This analysis informs the TTC's planning for improvements to ensure smoother, more efficient service throughout the year.
+
+\newpage
+
+```{r}
+#| echo: false
+#| warning: false
+#| label: fig-delay-causes-by-station
+#| fig-cap: "Top 10 stations with the most delay occurrences in the TTC subway system in 2023."
+
+#### Second Graph ####
+# Aggregate data by station and calculate total delays
+station_delay <- data %>%
+  group_by(Station) %>%
+  summarise(Delay_Count = n()) %>%
+  arrange(desc(Delay_Count)) %>%
+  top_n(10, Delay_Count)  # Select top 10 stations with most delays
+
+# Plot: Top 10 stations with most delay counts
+ggplot(station_delay, aes(x = reorder(Station, Delay_Count), y = Delay_Count)) +
+  geom_bar(stat = "identity", fill = "skyblue") +
+  labs(title = "Top 10 Stations with Most Delay Occurrences",
+       x = "Station",
+       y = "Count of Delays") +
+  theme_minimal(base_size = 14) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  coord_flip()  # Flip to make station names easier to read
+
+
+```
+
+The @fig-delay-causes-by-station shows the top 10 stations in the Toronto Transit Commission (TTC) subway system experiencing the highest number of delays in 2023. The bar chart shows that Bloor Station has the highest number of delays at over 800. Other high-traffic stations, such as Kennedy BD Station and Finch Station, followed closely behind, with more than 700 delays.
+
+These stations are all important transportation hubs in the system and are likely to experience delays due to high passenger volumes, complex operations, and frequent train movements. As a key interchange station for multiple subway lines, Union Station ranked seventh with over 500 delays. This suggests that while Union Station is a major transit hub, it does not have the highest frequency of delays, contrary to what would be expected from a ridership level departure. Stations such as Kipling Station and Dundas Station are terminal or transfer points. The concentration of delays at these stations suggests that operational inefficiencies may be due to train scheduling, maintenance programs, or platform congestion issues.
+
+The pattern at the first 10 stations highlights how delays are disproportionately distributed across the Metro network. While delays are not confined to a single line, they are concentrated at major interchanges or terminals, and the delayed stations are the most complex in terms of operations and passenger flow. This CASE allows for a more rational allocation of resources and maintenance planning or adjustments. Targeting improvements to high delay stations can significantly improve overall service reliability and reduce delays across the system.
+\newpage
+
+```{r}
+#| echo: false
+#| warning: false
+#| label: fig-delays-by-line
+#| fig-cap: "Total delay duration (in minutes) for each TTC subway line in 2023."
+
+#### Third Graph ####
+# Aggregate total delays by line
+line_delay <- data %>%
+  group_by(Line) %>%
+  summarise(Total_Delay = sum(`Min Delay`, na.rm = TRUE))
+
+# Plot: Total delay by subway line (Bar Chart)
+ggplot(line_delay, aes(x = reorder(Line, Total_Delay), y = Total_Delay, fill = Line)) +
+  geom_bar(stat = "identity", show.legend = FALSE) +  # Hide legend since it's redundant
+  labs(title = "Total Delay Duration by Subway Line",
+       x = "Subway Line",
+       y = "Total Delay (Minutes)") +
+  theme_minimal(base_size = 14) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +  # Rotate x-axis labels for readability
+  scale_fill_brewer(palette = "Set3")  # Apply a visually appealing color palette
+
+```
+
+@fig-delays-by-line shows the total delays (in minutes) for each subway line in the Toronto Transit Commission (TTC) system in 2023. The data shows that the Bloor-Danforth Line (Line 2) has the most extended cumulative delays, totaling over 30,000 minutes. It is closely followed by the Yonge-University line (Line 1), which has considerable delays but slightly less than Line 2. These two lines are Toronto's main bus routes, connecting major transit corridors and almost exclusively the city's most heavily traveled areas. In contrast, the Scarborough Line (Line 3) and Sheppard Line (Line 4) have much shorter total delays. The shorter routes and lower ridership on these lines compared to Lines 1 and 2 may account for their fewer delays. These lines have less frequent service and fewer transfer points. As a result, there are fewer operational disruptions.
+
+The data shows significant variation in the length of delays across the metro network, with the highest number of delays concentrated on the busiest and most complex lines (Lines 1 and 2). This suggests that these significant lines have more pronounced operational inefficiencies and maintenance issues. These lines may be more stressed due to frequent service demands and greater ridership. In contrast, smaller lines have fewer operational disruptions, likely due to their more straightforward routes and lower ridership.
+
+Finding which routes impact total delay rates remarkably allows the TTC to take a more targeted approach to addressing operational inefficiencies. The TTC could prioritize maintenance and resource allocation on the Bloor-Danforth and Wynn-University routes, which could significantly reduce delays and, ultimately, improve the efficiency of the overall transit system. The TTC could also prioritize maintenance and resource allocation on the Wynn-Danforth and Wynn-University routes. The study results indicate that focusing on these high-delay lines would significantly increase service reliability and improve the rider experience.
+
+# Discussion {#sec-discussion}
+
+As shown in @fig-delay-duration-over-time, the TTC subway system has experienced significant fluctuations in delay duration throughout 2023. The most notable peak occurs in June when the average delay duration reaches approximately 3.5 minutes. This shows that operational challenges and external disturbances require more attention during this period. Towards the end of the year, the delays decreased, indicating improved system performance, which could be due to better management practices or reduced external interference.
+
+Additionally, @fig-delay-causes-by-station shows a disproportionate number of delays at Union and Kipling stations, which could be attributed to the high volume of passengers and complex operational demands. As significant hubs in the Metro network, these two stations have a high frequency of delays and, therefore, require targeted interventions to alleviate congestion and reduce operational efficiency.
+
+Finally, @fig-delays-by-line shows that the Bloor-Danforth Line (Line 2) and the Yonge-University Line (Line 1) impact system-wide delays the most. These two lines form the TTC's main routes and connect most of the city's riders. Therefore, given the system-wide impact of these two heavily traveled lines, the TTC should prioritize improving its operations. The analysis in this paper emphasizes the importance of addressing these key stations and lines to reduce overall delays and enhance the rider experience.
+\newpage
+
+\appendix
+
+# Appendix {#sec-appendix}
+
+## Dataset and Graph Sketches {#sec-appendix-sketches}
+
+The dataset used in this analysis comes from the OpenDataToronto portal[@citeopendatatoronto], specifically focusing on the Toronto Transit Commission (TTC) subway delay data. This dataset contains detailed records of delay events, including the station, time, date, delay caused, and delay duration. The graphs generated in this analysis include visual representations of delay patterns over time, the frequency of delays by station, and the total delays by subway line, which help provide insights into the operational challenges faced by the TTC in 2023. All visualizations were produced using the ggplot2 library[@citetggplot2] in R[@citeR].
+
+## Data Cleaning {#sec-appendix-cleaning}
+The process of data cleaning involved filtering the relevant data for the TTC subway delays. The dataset was cleaned by renaming some columns to make them more readable, removing unnecessary columns, and handling missing values. Therefore, the cleaned dataset is used for analysis, ensuring accuracy and clarity in the visualizations and statistical evaluations.
+
+## Attribution Statement {#sec-appendix-attribution}
+
+This research uses the TTC subway delay data which is licensed under the Open Government Licence of Toronto[@tphlicense].It available at OpenDataToronto[@citeopendatatoronto]. All data and visualizations generated in this analysis are fully compliant with this license. 
+
+\newpage
+
+# References {#sec-references}
+Louie, J., Shalaby, A., & Habib, K. N. (2017). Modelling the impact of causal and non-causal factors on disruption duration for Toronto’s subway system: An exploratory investigation using hazard modelling. Accident Analysis & Prevention, 98, 232-240. 
+
+Schleifer, A. (2022). Toronto Subway Delays Vary Based on Specific Ridership Patterns.
+
+Lüdecke, D., Makowski, D., Ben-Shachar, M. S., Patil, I., Wiernik, B. M., Bacher, Etienne, & Thériault, R. (2023). easystats: Streamline model interpretation, visualization, and reporting (0.7.2) [R package]. https://easystats.github.io/easystats/ (Original work published 2019)
+
+Wickham et al., (2019). Welcome to the Tidyverse. Journal of Open Source Software, 4(43), 1686, https://doi.org/10.21105/joss.01686
+
+Alexander, R. (2023). Telling Stories with Data. CRC Press, Boca Raton. https://tellingstorieswithdata.com/
+
+Firke, S. (2023). janitor: Simple Tools for Examining and Cleaning Dirty Data (R package version 2.2.0). Retrieved from https://CRAN.R-project.org/package=janitor
+
+Gelfand, S. (2022). opendatatoronto: Access the City of Toronto Open Data Portal (R package version 0.1.5). Retrieved from https://CRAN.R-project.org/package=opendatatoronto
