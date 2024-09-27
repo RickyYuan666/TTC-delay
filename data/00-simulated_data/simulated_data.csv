@@ -1,0 +1,1001 @@
+"ID","Station","Type of Delay","Delay Duration (Minutes)"
+1,"Kipling Station","Weather Conditions",42
+2,"Union Station","Passenger Assistance",15
+3,"College Station","Signal Issue",58
+4,"Union Station","Signal Issue",36
+5,"Bloor Station","Weather Conditions",51
+6,"Kennedy BD Station","Passenger Assistance",14
+7,"College Station","Mechanical Failure",60
+8,"Union Station","Passenger Assistance",60
+9,"Union Station","Passenger Assistance",21
+10,"College Station","Signal Issue",9
+11,"Finch Station","Mechanical Failure",26
+12,"Kennedy BD Station","Weather Conditions",49
+13,"Finch Station","Mechanical Failure",22
+14,"Eglinton Station","Weather Conditions",22
+15,"Finch Station","Passenger Assistance",34
+16,"Eglinton Station","Weather Conditions",37
+17,"Kipling Station","Signal Issue",45
+18,"Finch Station","Weather Conditions",10
+19,"Finch Station","Weather Conditions",21
+20,"Finch Station","Signal Issue",10
+21,"Union Station","Weather Conditions",26
+22,"Kennedy BD Station","Weather Conditions",26
+23,"Finch Station","Passenger Assistance",41
+24,"Finch Station","Weather Conditions",30
+25,"College Station","Passenger Assistance",54
+26,"Finch Station","Signal Issue",34
+27,"College Station","Signal Issue",60
+28,"Kipling Station","Signal Issue",54
+29,"College Station","Weather Conditions",22
+30,"Kennedy BD Station","Signal Issue",31
+31,"College Station","Weather Conditions",26
+32,"Union Station","Mechanical Failure",55
+33,"Kipling Station","Weather Conditions",57
+34,"Bloor Station","Weather Conditions",27
+35,"Kipling Station","Passenger Assistance",42
+36,"Union Station","Passenger Assistance",24
+37,"Kipling Station","Signal Issue",53
+38,"College Station","Passenger Assistance",47
+39,"Dundas Station","Weather Conditions",52
+40,"Bloor Station","Passenger Assistance",21
+41,"Bloor Station","Passenger Assistance",58
+42,"Kipling Station","Mechanical Failure",24
+43,"Bloor Station","Weather Conditions",13
+44,"Dundas Station","Mechanical Failure",33
+45,"Kennedy BD Station","Signal Issue",22
+46,"Dundas Station","Weather Conditions",22
+47,"Dundas Station","Mechanical Failure",12
+48,"College Station","Weather Conditions",42
+49,"Dundas Station","Passenger Assistance",60
+50,"Eglinton Station","Signal Issue",12
+51,"Eglinton Station","Weather Conditions",9
+52,"Dundas Station","Passenger Assistance",44
+53,"Dundas Station","Passenger Assistance",25
+54,"Finch Station","Signal Issue",1
+55,"Union Station","Mechanical Failure",59
+56,"College Station","Mechanical Failure",24
+57,"College Station","Passenger Assistance",28
+58,"Dundas Station","Signal Issue",21
+59,"Bloor Station","Signal Issue",45
+60,"Dundas Station","Signal Issue",4
+61,"Finch Station","Weather Conditions",1
+62,"Bloor Station","Signal Issue",26
+63,"Eglinton Station","Signal Issue",8
+64,"Finch Station","Weather Conditions",15
+65,"Dundas Station","Signal Issue",40
+66,"Bloor Station","Mechanical Failure",57
+67,"Bloor Station","Passenger Assistance",37
+68,"Eglinton Station","Weather Conditions",7
+69,"Eglinton Station","Passenger Assistance",49
+70,"Eglinton Station","Passenger Assistance",53
+71,"Union Station","Passenger Assistance",40
+72,"Eglinton Station","Mechanical Failure",12
+73,"Finch Station","Signal Issue",29
+74,"College Station","Mechanical Failure",20
+75,"Eglinton Station","Signal Issue",36
+76,"Union Station","Passenger Assistance",19
+77,"Eglinton Station","Mechanical Failure",41
+78,"Finch Station","Passenger Assistance",12
+79,"Dundas Station","Signal Issue",47
+80,"Kipling Station","Mechanical Failure",44
+81,"College Station","Passenger Assistance",57
+82,"Eglinton Station","Weather Conditions",36
+83,"Union Station","Mechanical Failure",8
+84,"Union Station","Weather Conditions",10
+85,"Eglinton Station","Mechanical Failure",22
+86,"Bloor Station","Passenger Assistance",26
+87,"Kennedy BD Station","Passenger Assistance",28
+88,"Union Station","Signal Issue",8
+89,"Kennedy BD Station","Signal Issue",20
+90,"Finch Station","Weather Conditions",37
+91,"College Station","Signal Issue",24
+92,"Dundas Station","Passenger Assistance",31
+93,"Bloor Station","Signal Issue",40
+94,"Eglinton Station","Signal Issue",32
+95,"Kennedy BD Station","Mechanical Failure",11
+96,"Finch Station","Passenger Assistance",49
+97,"Union Station","Signal Issue",14
+98,"Eglinton Station","Mechanical Failure",29
+99,"Kennedy BD Station","Signal Issue",22
+100,"College Station","Weather Conditions",53
+101,"Kipling Station","Weather Conditions",47
+102,"College Station","Signal Issue",48
+103,"Union Station","Mechanical Failure",22
+104,"Finch Station","Passenger Assistance",3
+105,"Eglinton Station","Mechanical Failure",21
+106,"Kennedy BD Station","Mechanical Failure",45
+107,"Dundas Station","Signal Issue",46
+108,"College Station","Mechanical Failure",38
+109,"Kennedy BD Station","Passenger Assistance",20
+110,"Finch Station","Mechanical Failure",26
+111,"Bloor Station","Weather Conditions",2
+112,"Kipling Station","Weather Conditions",56
+113,"Dundas Station","Passenger Assistance",15
+114,"Eglinton Station","Signal Issue",6
+115,"Kennedy BD Station","Passenger Assistance",18
+116,"Kennedy BD Station","Passenger Assistance",44
+117,"Dundas Station","Signal Issue",51
+118,"Eglinton Station","Mechanical Failure",51
+119,"Dundas Station","Passenger Assistance",42
+120,"Eglinton Station","Mechanical Failure",6
+121,"Finch Station","Weather Conditions",45
+122,"Finch Station","Passenger Assistance",34
+123,"Kipling Station","Mechanical Failure",33
+124,"Dundas Station","Mechanical Failure",53
+125,"Dundas Station","Mechanical Failure",10
+126,"Dundas Station","Mechanical Failure",50
+127,"Bloor Station","Signal Issue",50
+128,"College Station","Signal Issue",56
+129,"Kennedy BD Station","Signal Issue",35
+130,"Finch Station","Weather Conditions",49
+131,"Finch Station","Weather Conditions",50
+132,"Bloor Station","Passenger Assistance",45
+133,"Finch Station","Passenger Assistance",32
+134,"Kennedy BD Station","Signal Issue",18
+135,"Finch Station","Weather Conditions",6
+136,"Dundas Station","Passenger Assistance",37
+137,"Union Station","Mechanical Failure",40
+138,"Dundas Station","Signal Issue",43
+139,"Kennedy BD Station","Passenger Assistance",57
+140,"Kipling Station","Passenger Assistance",39
+141,"Dundas Station","Weather Conditions",47
+142,"Dundas Station","Signal Issue",17
+143,"College Station","Mechanical Failure",52
+144,"College Station","Signal Issue",57
+145,"Kennedy BD Station","Weather Conditions",37
+146,"Union Station","Passenger Assistance",57
+147,"Finch Station","Signal Issue",41
+148,"Finch Station","Weather Conditions",35
+149,"Eglinton Station","Weather Conditions",16
+150,"Dundas Station","Mechanical Failure",31
+151,"Kennedy BD Station","Passenger Assistance",5
+152,"Union Station","Signal Issue",14
+153,"Eglinton Station","Mechanical Failure",24
+154,"College Station","Weather Conditions",2
+155,"Finch Station","Weather Conditions",10
+156,"Bloor Station","Weather Conditions",36
+157,"College Station","Passenger Assistance",23
+158,"Eglinton Station","Weather Conditions",39
+159,"Dundas Station","Signal Issue",19
+160,"Finch Station","Signal Issue",58
+161,"Eglinton Station","Weather Conditions",29
+162,"Finch Station","Mechanical Failure",17
+163,"Bloor Station","Weather Conditions",57
+164,"College Station","Mechanical Failure",11
+165,"College Station","Signal Issue",7
+166,"Eglinton Station","Mechanical Failure",31
+167,"Finch Station","Passenger Assistance",3
+168,"Dundas Station","Weather Conditions",26
+169,"Eglinton Station","Passenger Assistance",57
+170,"Finch Station","Passenger Assistance",19
+171,"Bloor Station","Weather Conditions",30
+172,"Union Station","Passenger Assistance",25
+173,"Eglinton Station","Weather Conditions",44
+174,"Union Station","Signal Issue",50
+175,"Union Station","Passenger Assistance",10
+176,"Bloor Station","Mechanical Failure",47
+177,"Union Station","Signal Issue",59
+178,"Dundas Station","Weather Conditions",20
+179,"College Station","Mechanical Failure",14
+180,"Kipling Station","Weather Conditions",45
+181,"Dundas Station","Weather Conditions",15
+182,"Finch Station","Weather Conditions",51
+183,"Kipling Station","Weather Conditions",27
+184,"Kipling Station","Signal Issue",46
+185,"Finch Station","Weather Conditions",44
+186,"Kipling Station","Passenger Assistance",57
+187,"Kipling Station","Signal Issue",57
+188,"Kennedy BD Station","Passenger Assistance",33
+189,"Eglinton Station","Passenger Assistance",18
+190,"Kennedy BD Station","Passenger Assistance",10
+191,"Finch Station","Passenger Assistance",17
+192,"Dundas Station","Weather Conditions",11
+193,"Dundas Station","Mechanical Failure",7
+194,"College Station","Weather Conditions",8
+195,"College Station","Weather Conditions",51
+196,"Kipling Station","Mechanical Failure",27
+197,"Eglinton Station","Passenger Assistance",13
+198,"Kennedy BD Station","Mechanical Failure",24
+199,"Eglinton Station","Mechanical Failure",20
+200,"Finch Station","Signal Issue",52
+201,"Dundas Station","Mechanical Failure",32
+202,"College Station","Mechanical Failure",26
+203,"Finch Station","Signal Issue",16
+204,"Kipling Station","Weather Conditions",22
+205,"Eglinton Station","Passenger Assistance",46
+206,"College Station","Weather Conditions",14
+207,"College Station","Weather Conditions",35
+208,"Bloor Station","Mechanical Failure",39
+209,"Finch Station","Mechanical Failure",20
+210,"Eglinton Station","Mechanical Failure",41
+211,"Finch Station","Passenger Assistance",3
+212,"Union Station","Passenger Assistance",13
+213,"Union Station","Weather Conditions",7
+214,"Kipling Station","Weather Conditions",50
+215,"Eglinton Station","Weather Conditions",33
+216,"Eglinton Station","Signal Issue",13
+217,"Dundas Station","Mechanical Failure",16
+218,"Bloor Station","Signal Issue",33
+219,"Bloor Station","Mechanical Failure",11
+220,"Union Station","Passenger Assistance",39
+221,"Finch Station","Mechanical Failure",8
+222,"Kennedy BD Station","Signal Issue",58
+223,"Bloor Station","Weather Conditions",57
+224,"Dundas Station","Mechanical Failure",41
+225,"Finch Station","Mechanical Failure",5
+226,"Bloor Station","Passenger Assistance",10
+227,"Dundas Station","Mechanical Failure",46
+228,"Union Station","Signal Issue",28
+229,"Dundas Station","Passenger Assistance",57
+230,"Eglinton Station","Weather Conditions",54
+231,"Dundas Station","Weather Conditions",32
+232,"Dundas Station","Passenger Assistance",58
+233,"Union Station","Mechanical Failure",19
+234,"Kipling Station","Weather Conditions",46
+235,"Kipling Station","Weather Conditions",55
+236,"Bloor Station","Weather Conditions",2
+237,"Bloor Station","Mechanical Failure",37
+238,"College Station","Signal Issue",43
+239,"Eglinton Station","Signal Issue",46
+240,"Dundas Station","Mechanical Failure",57
+241,"Union Station","Signal Issue",35
+242,"Kipling Station","Passenger Assistance",55
+243,"Eglinton Station","Signal Issue",15
+244,"Kipling Station","Passenger Assistance",17
+245,"College Station","Weather Conditions",9
+246,"Eglinton Station","Mechanical Failure",13
+247,"Kennedy BD Station","Weather Conditions",48
+248,"Union Station","Weather Conditions",35
+249,"Kennedy BD Station","Signal Issue",46
+250,"Union Station","Signal Issue",11
+251,"College Station","Passenger Assistance",15
+252,"Union Station","Mechanical Failure",53
+253,"Kipling Station","Weather Conditions",29
+254,"Bloor Station","Mechanical Failure",45
+255,"Bloor Station","Mechanical Failure",3
+256,"Finch Station","Mechanical Failure",20
+257,"Union Station","Weather Conditions",56
+258,"Bloor Station","Mechanical Failure",13
+259,"College Station","Weather Conditions",30
+260,"College Station","Signal Issue",9
+261,"Eglinton Station","Mechanical Failure",39
+262,"Union Station","Passenger Assistance",17
+263,"Finch Station","Weather Conditions",7
+264,"Bloor Station","Mechanical Failure",39
+265,"College Station","Mechanical Failure",56
+266,"Finch Station","Passenger Assistance",53
+267,"Kennedy BD Station","Mechanical Failure",11
+268,"Bloor Station","Passenger Assistance",47
+269,"Eglinton Station","Mechanical Failure",39
+270,"Finch Station","Passenger Assistance",53
+271,"Kipling Station","Weather Conditions",46
+272,"College Station","Signal Issue",43
+273,"Dundas Station","Signal Issue",28
+274,"Eglinton Station","Mechanical Failure",26
+275,"College Station","Passenger Assistance",34
+276,"Dundas Station","Mechanical Failure",34
+277,"Finch Station","Weather Conditions",54
+278,"Union Station","Mechanical Failure",4
+279,"Union Station","Weather Conditions",33
+280,"Union Station","Mechanical Failure",9
+281,"Eglinton Station","Signal Issue",29
+282,"Finch Station","Passenger Assistance",12
+283,"Kennedy BD Station","Weather Conditions",24
+284,"Dundas Station","Mechanical Failure",58
+285,"Finch Station","Passenger Assistance",53
+286,"College Station","Mechanical Failure",31
+287,"Bloor Station","Signal Issue",20
+288,"Finch Station","Passenger Assistance",18
+289,"Union Station","Mechanical Failure",48
+290,"Union Station","Mechanical Failure",46
+291,"Dundas Station","Passenger Assistance",23
+292,"Union Station","Passenger Assistance",16
+293,"Union Station","Signal Issue",48
+294,"College Station","Passenger Assistance",21
+295,"Kipling Station","Passenger Assistance",23
+296,"Kipling Station","Weather Conditions",5
+297,"Bloor Station","Mechanical Failure",25
+298,"Kipling Station","Weather Conditions",3
+299,"Eglinton Station","Mechanical Failure",16
+300,"Finch Station","Mechanical Failure",54
+301,"Kipling Station","Weather Conditions",8
+302,"Bloor Station","Weather Conditions",6
+303,"Kennedy BD Station","Passenger Assistance",30
+304,"Kipling Station","Mechanical Failure",38
+305,"Dundas Station","Passenger Assistance",46
+306,"College Station","Passenger Assistance",45
+307,"Eglinton Station","Mechanical Failure",55
+308,"Dundas Station","Mechanical Failure",43
+309,"Finch Station","Passenger Assistance",3
+310,"Bloor Station","Weather Conditions",27
+311,"Kipling Station","Mechanical Failure",26
+312,"Union Station","Mechanical Failure",40
+313,"Kennedy BD Station","Weather Conditions",26
+314,"Union Station","Signal Issue",16
+315,"Bloor Station","Weather Conditions",30
+316,"Union Station","Weather Conditions",48
+317,"Kennedy BD Station","Signal Issue",33
+318,"Bloor Station","Passenger Assistance",54
+319,"Finch Station","Mechanical Failure",25
+320,"Union Station","Signal Issue",16
+321,"Bloor Station","Mechanical Failure",44
+322,"Dundas Station","Mechanical Failure",27
+323,"College Station","Passenger Assistance",6
+324,"Dundas Station","Signal Issue",36
+325,"Eglinton Station","Weather Conditions",36
+326,"Bloor Station","Passenger Assistance",26
+327,"Kennedy BD Station","Signal Issue",6
+328,"Bloor Station","Passenger Assistance",26
+329,"College Station","Passenger Assistance",59
+330,"Union Station","Weather Conditions",33
+331,"Union Station","Signal Issue",34
+332,"Bloor Station","Signal Issue",20
+333,"Kipling Station","Mechanical Failure",30
+334,"Finch Station","Signal Issue",31
+335,"Eglinton Station","Mechanical Failure",51
+336,"Eglinton Station","Mechanical Failure",12
+337,"Kipling Station","Weather Conditions",56
+338,"Bloor Station","Passenger Assistance",6
+339,"Kipling Station","Mechanical Failure",42
+340,"Dundas Station","Weather Conditions",28
+341,"Bloor Station","Signal Issue",53
+342,"Eglinton Station","Signal Issue",44
+343,"Dundas Station","Signal Issue",59
+344,"Union Station","Signal Issue",20
+345,"Kennedy BD Station","Signal Issue",37
+346,"Eglinton Station","Signal Issue",41
+347,"Finch Station","Weather Conditions",39
+348,"Dundas Station","Weather Conditions",46
+349,"Kennedy BD Station","Passenger Assistance",28
+350,"Eglinton Station","Signal Issue",35
+351,"Kipling Station","Passenger Assistance",26
+352,"Kipling Station","Signal Issue",52
+353,"Finch Station","Weather Conditions",7
+354,"Union Station","Passenger Assistance",24
+355,"Dundas Station","Mechanical Failure",7
+356,"College Station","Signal Issue",47
+357,"Kipling Station","Mechanical Failure",21
+358,"Bloor Station","Passenger Assistance",40
+359,"College Station","Passenger Assistance",12
+360,"Union Station","Weather Conditions",29
+361,"Finch Station","Signal Issue",17
+362,"Union Station","Mechanical Failure",40
+363,"Dundas Station","Signal Issue",14
+364,"Finch Station","Passenger Assistance",56
+365,"Dundas Station","Mechanical Failure",39
+366,"Finch Station","Passenger Assistance",27
+367,"Dundas Station","Passenger Assistance",34
+368,"Kennedy BD Station","Passenger Assistance",49
+369,"Union Station","Mechanical Failure",43
+370,"Kennedy BD Station","Passenger Assistance",51
+371,"Union Station","Signal Issue",45
+372,"Bloor Station","Weather Conditions",12
+373,"Kennedy BD Station","Signal Issue",27
+374,"Union Station","Passenger Assistance",48
+375,"Kipling Station","Mechanical Failure",29
+376,"Finch Station","Mechanical Failure",39
+377,"College Station","Mechanical Failure",30
+378,"Finch Station","Mechanical Failure",57
+379,"Dundas Station","Weather Conditions",47
+380,"College Station","Weather Conditions",35
+381,"Dundas Station","Signal Issue",57
+382,"Eglinton Station","Signal Issue",50
+383,"Kipling Station","Passenger Assistance",46
+384,"Kipling Station","Passenger Assistance",50
+385,"Eglinton Station","Signal Issue",26
+386,"Eglinton Station","Weather Conditions",10
+387,"Kennedy BD Station","Weather Conditions",5
+388,"College Station","Mechanical Failure",15
+389,"Bloor Station","Passenger Assistance",51
+390,"Finch Station","Mechanical Failure",22
+391,"Union Station","Passenger Assistance",17
+392,"Eglinton Station","Weather Conditions",12
+393,"Finch Station","Passenger Assistance",23
+394,"Finch Station","Mechanical Failure",54
+395,"Kennedy BD Station","Mechanical Failure",43
+396,"Kipling Station","Signal Issue",29
+397,"Union Station","Signal Issue",32
+398,"Kipling Station","Signal Issue",32
+399,"Kipling Station","Passenger Assistance",8
+400,"Dundas Station","Passenger Assistance",21
+401,"Bloor Station","Signal Issue",54
+402,"Eglinton Station","Passenger Assistance",9
+403,"Bloor Station","Passenger Assistance",42
+404,"College Station","Weather Conditions",10
+405,"College Station","Passenger Assistance",1
+406,"Union Station","Passenger Assistance",13
+407,"Bloor Station","Signal Issue",25
+408,"Eglinton Station","Passenger Assistance",35
+409,"Dundas Station","Signal Issue",26
+410,"College Station","Signal Issue",15
+411,"Eglinton Station","Weather Conditions",3
+412,"Union Station","Passenger Assistance",49
+413,"Finch Station","Signal Issue",4
+414,"Finch Station","Mechanical Failure",17
+415,"College Station","Signal Issue",16
+416,"Union Station","Weather Conditions",57
+417,"Union Station","Mechanical Failure",45
+418,"Union Station","Passenger Assistance",18
+419,"Bloor Station","Weather Conditions",10
+420,"Eglinton Station","Passenger Assistance",45
+421,"Eglinton Station","Weather Conditions",40
+422,"Kennedy BD Station","Signal Issue",57
+423,"Kennedy BD Station","Weather Conditions",13
+424,"Eglinton Station","Weather Conditions",45
+425,"Kipling Station","Passenger Assistance",50
+426,"Kipling Station","Signal Issue",45
+427,"Dundas Station","Weather Conditions",35
+428,"Bloor Station","Passenger Assistance",48
+429,"Kipling Station","Passenger Assistance",55
+430,"Bloor Station","Mechanical Failure",13
+431,"Eglinton Station","Weather Conditions",10
+432,"Bloor Station","Signal Issue",26
+433,"Bloor Station","Mechanical Failure",44
+434,"Kipling Station","Passenger Assistance",55
+435,"Dundas Station","Weather Conditions",33
+436,"Kipling Station","Signal Issue",8
+437,"Dundas Station","Passenger Assistance",6
+438,"Dundas Station","Signal Issue",7
+439,"Eglinton Station","Mechanical Failure",40
+440,"Union Station","Weather Conditions",29
+441,"Dundas Station","Mechanical Failure",13
+442,"Dundas Station","Mechanical Failure",22
+443,"Eglinton Station","Weather Conditions",12
+444,"College Station","Mechanical Failure",24
+445,"Kipling Station","Passenger Assistance",9
+446,"College Station","Weather Conditions",1
+447,"Finch Station","Signal Issue",56
+448,"Eglinton Station","Weather Conditions",19
+449,"Dundas Station","Weather Conditions",2
+450,"Bloor Station","Mechanical Failure",5
+451,"Kipling Station","Signal Issue",57
+452,"Dundas Station","Passenger Assistance",7
+453,"Kennedy BD Station","Signal Issue",33
+454,"Finch Station","Weather Conditions",5
+455,"Finch Station","Signal Issue",9
+456,"Union Station","Mechanical Failure",10
+457,"College Station","Weather Conditions",45
+458,"Dundas Station","Passenger Assistance",11
+459,"Bloor Station","Weather Conditions",53
+460,"Eglinton Station","Weather Conditions",16
+461,"Eglinton Station","Signal Issue",14
+462,"Kipling Station","Mechanical Failure",15
+463,"College Station","Mechanical Failure",35
+464,"Eglinton Station","Weather Conditions",33
+465,"Kipling Station","Mechanical Failure",19
+466,"Kipling Station","Mechanical Failure",50
+467,"Finch Station","Passenger Assistance",48
+468,"College Station","Passenger Assistance",10
+469,"Dundas Station","Passenger Assistance",23
+470,"Dundas Station","Passenger Assistance",41
+471,"Kipling Station","Weather Conditions",27
+472,"Kipling Station","Signal Issue",9
+473,"Kipling Station","Signal Issue",2
+474,"Kipling Station","Signal Issue",37
+475,"Eglinton Station","Weather Conditions",8
+476,"College Station","Passenger Assistance",8
+477,"Kennedy BD Station","Weather Conditions",7
+478,"Union Station","Passenger Assistance",55
+479,"Dundas Station","Signal Issue",43
+480,"Bloor Station","Weather Conditions",44
+481,"Finch Station","Weather Conditions",49
+482,"Union Station","Passenger Assistance",25
+483,"Eglinton Station","Mechanical Failure",29
+484,"Bloor Station","Mechanical Failure",45
+485,"Dundas Station","Mechanical Failure",52
+486,"Union Station","Weather Conditions",40
+487,"Eglinton Station","Passenger Assistance",24
+488,"Bloor Station","Passenger Assistance",47
+489,"Kipling Station","Mechanical Failure",24
+490,"Kennedy BD Station","Weather Conditions",39
+491,"Union Station","Mechanical Failure",49
+492,"College Station","Signal Issue",21
+493,"College Station","Mechanical Failure",44
+494,"Bloor Station","Weather Conditions",26
+495,"Union Station","Mechanical Failure",29
+496,"Dundas Station","Passenger Assistance",1
+497,"Eglinton Station","Signal Issue",36
+498,"Bloor Station","Mechanical Failure",1
+499,"Finch Station","Mechanical Failure",29
+500,"Kipling Station","Weather Conditions",55
+501,"Bloor Station","Signal Issue",32
+502,"Eglinton Station","Passenger Assistance",13
+503,"Union Station","Weather Conditions",28
+504,"Kipling Station","Signal Issue",3
+505,"Finch Station","Passenger Assistance",47
+506,"Bloor Station","Signal Issue",25
+507,"Kipling Station","Weather Conditions",39
+508,"Kennedy BD Station","Passenger Assistance",46
+509,"Eglinton Station","Signal Issue",3
+510,"Dundas Station","Passenger Assistance",34
+511,"Bloor Station","Weather Conditions",7
+512,"Union Station","Signal Issue",5
+513,"Dundas Station","Signal Issue",12
+514,"Union Station","Signal Issue",38
+515,"Bloor Station","Weather Conditions",23
+516,"Finch Station","Signal Issue",53
+517,"Kipling Station","Signal Issue",8
+518,"Union Station","Passenger Assistance",8
+519,"Bloor Station","Weather Conditions",45
+520,"Eglinton Station","Mechanical Failure",27
+521,"Bloor Station","Weather Conditions",43
+522,"College Station","Mechanical Failure",29
+523,"Kipling Station","Signal Issue",22
+524,"Kipling Station","Mechanical Failure",46
+525,"Union Station","Passenger Assistance",27
+526,"College Station","Weather Conditions",2
+527,"Kipling Station","Weather Conditions",38
+528,"Bloor Station","Mechanical Failure",10
+529,"Eglinton Station","Mechanical Failure",6
+530,"Dundas Station","Passenger Assistance",22
+531,"Dundas Station","Mechanical Failure",33
+532,"Kipling Station","Weather Conditions",23
+533,"College Station","Signal Issue",48
+534,"Eglinton Station","Mechanical Failure",12
+535,"Kennedy BD Station","Weather Conditions",14
+536,"Union Station","Weather Conditions",8
+537,"Kipling Station","Passenger Assistance",11
+538,"Dundas Station","Passenger Assistance",6
+539,"Bloor Station","Signal Issue",40
+540,"Kipling Station","Mechanical Failure",11
+541,"Kipling Station","Signal Issue",40
+542,"Union Station","Passenger Assistance",34
+543,"Kipling Station","Weather Conditions",27
+544,"Dundas Station","Signal Issue",25
+545,"Kipling Station","Passenger Assistance",37
+546,"Bloor Station","Weather Conditions",3
+547,"Finch Station","Mechanical Failure",59
+548,"Kennedy BD Station","Weather Conditions",35
+549,"Kennedy BD Station","Weather Conditions",40
+550,"Finch Station","Weather Conditions",42
+551,"Eglinton Station","Weather Conditions",57
+552,"Eglinton Station","Mechanical Failure",7
+553,"Dundas Station","Mechanical Failure",57
+554,"Finch Station","Weather Conditions",9
+555,"Bloor Station","Weather Conditions",35
+556,"Kennedy BD Station","Signal Issue",24
+557,"Kennedy BD Station","Signal Issue",28
+558,"Finch Station","Signal Issue",57
+559,"College Station","Signal Issue",17
+560,"Bloor Station","Weather Conditions",33
+561,"Finch Station","Signal Issue",19
+562,"Kipling Station","Mechanical Failure",49
+563,"Kipling Station","Mechanical Failure",38
+564,"Eglinton Station","Passenger Assistance",16
+565,"Finch Station","Signal Issue",41
+566,"Union Station","Weather Conditions",7
+567,"Dundas Station","Signal Issue",12
+568,"Dundas Station","Mechanical Failure",6
+569,"Dundas Station","Mechanical Failure",37
+570,"Kipling Station","Signal Issue",1
+571,"Union Station","Passenger Assistance",25
+572,"Finch Station","Passenger Assistance",2
+573,"Eglinton Station","Mechanical Failure",22
+574,"College Station","Passenger Assistance",25
+575,"Finch Station","Signal Issue",15
+576,"Kennedy BD Station","Signal Issue",35
+577,"Kennedy BD Station","Weather Conditions",45
+578,"Kipling Station","Signal Issue",53
+579,"Eglinton Station","Signal Issue",25
+580,"Union Station","Signal Issue",59
+581,"College Station","Passenger Assistance",5
+582,"Eglinton Station","Signal Issue",7
+583,"Kennedy BD Station","Passenger Assistance",30
+584,"Union Station","Passenger Assistance",33
+585,"Eglinton Station","Passenger Assistance",16
+586,"Kipling Station","Mechanical Failure",33
+587,"Dundas Station","Passenger Assistance",25
+588,"Bloor Station","Passenger Assistance",6
+589,"Kipling Station","Passenger Assistance",14
+590,"College Station","Passenger Assistance",48
+591,"Eglinton Station","Mechanical Failure",53
+592,"Dundas Station","Passenger Assistance",58
+593,"Eglinton Station","Weather Conditions",60
+594,"Kennedy BD Station","Mechanical Failure",15
+595,"College Station","Mechanical Failure",19
+596,"Union Station","Signal Issue",5
+597,"Kennedy BD Station","Weather Conditions",29
+598,"Bloor Station","Passenger Assistance",52
+599,"Finch Station","Signal Issue",54
+600,"Kennedy BD Station","Mechanical Failure",54
+601,"Eglinton Station","Mechanical Failure",52
+602,"Union Station","Passenger Assistance",23
+603,"College Station","Weather Conditions",37
+604,"Dundas Station","Passenger Assistance",47
+605,"Eglinton Station","Signal Issue",1
+606,"College Station","Passenger Assistance",42
+607,"College Station","Signal Issue",52
+608,"Finch Station","Mechanical Failure",57
+609,"Kennedy BD Station","Mechanical Failure",31
+610,"Dundas Station","Weather Conditions",47
+611,"Eglinton Station","Signal Issue",27
+612,"Kennedy BD Station","Signal Issue",52
+613,"College Station","Signal Issue",48
+614,"Kennedy BD Station","Passenger Assistance",18
+615,"College Station","Passenger Assistance",10
+616,"Kennedy BD Station","Weather Conditions",39
+617,"Kipling Station","Mechanical Failure",32
+618,"Kennedy BD Station","Signal Issue",40
+619,"Kipling Station","Signal Issue",24
+620,"Kennedy BD Station","Mechanical Failure",13
+621,"Finch Station","Passenger Assistance",26
+622,"Eglinton Station","Weather Conditions",58
+623,"College Station","Signal Issue",25
+624,"Union Station","Passenger Assistance",58
+625,"Union Station","Mechanical Failure",50
+626,"Bloor Station","Signal Issue",4
+627,"Bloor Station","Weather Conditions",9
+628,"Bloor Station","Signal Issue",41
+629,"Union Station","Weather Conditions",21
+630,"Eglinton Station","Weather Conditions",10
+631,"Dundas Station","Weather Conditions",36
+632,"Kennedy BD Station","Signal Issue",12
+633,"Kennedy BD Station","Signal Issue",14
+634,"College Station","Mechanical Failure",11
+635,"Union Station","Passenger Assistance",42
+636,"Finch Station","Weather Conditions",26
+637,"Eglinton Station","Mechanical Failure",25
+638,"Kennedy BD Station","Passenger Assistance",39
+639,"Kipling Station","Signal Issue",2
+640,"College Station","Mechanical Failure",18
+641,"Kennedy BD Station","Weather Conditions",20
+642,"Finch Station","Passenger Assistance",31
+643,"Bloor Station","Weather Conditions",31
+644,"Union Station","Signal Issue",16
+645,"Dundas Station","Weather Conditions",21
+646,"Bloor Station","Signal Issue",5
+647,"Kennedy BD Station","Mechanical Failure",3
+648,"Finch Station","Weather Conditions",10
+649,"Kennedy BD Station","Passenger Assistance",24
+650,"Bloor Station","Signal Issue",59
+651,"Eglinton Station","Mechanical Failure",22
+652,"Kennedy BD Station","Signal Issue",20
+653,"Kennedy BD Station","Signal Issue",55
+654,"Bloor Station","Weather Conditions",9
+655,"Union Station","Signal Issue",40
+656,"College Station","Signal Issue",47
+657,"College Station","Weather Conditions",48
+658,"Dundas Station","Mechanical Failure",2
+659,"Dundas Station","Passenger Assistance",49
+660,"Kipling Station","Passenger Assistance",30
+661,"Finch Station","Mechanical Failure",30
+662,"Kennedy BD Station","Mechanical Failure",9
+663,"Bloor Station","Signal Issue",2
+664,"Bloor Station","Mechanical Failure",36
+665,"Union Station","Passenger Assistance",46
+666,"Finch Station","Signal Issue",36
+667,"Eglinton Station","Signal Issue",48
+668,"Kipling Station","Mechanical Failure",29
+669,"Kennedy BD Station","Passenger Assistance",12
+670,"Dundas Station","Weather Conditions",35
+671,"Finch Station","Weather Conditions",26
+672,"Dundas Station","Signal Issue",10
+673,"Kipling Station","Weather Conditions",18
+674,"Kipling Station","Weather Conditions",23
+675,"Dundas Station","Signal Issue",33
+676,"College Station","Mechanical Failure",52
+677,"Kennedy BD Station","Signal Issue",57
+678,"Union Station","Passenger Assistance",10
+679,"Bloor Station","Passenger Assistance",49
+680,"Finch Station","Signal Issue",42
+681,"Bloor Station","Weather Conditions",13
+682,"Union Station","Weather Conditions",1
+683,"Kipling Station","Signal Issue",33
+684,"Finch Station","Mechanical Failure",39
+685,"Dundas Station","Passenger Assistance",23
+686,"Kennedy BD Station","Signal Issue",29
+687,"Eglinton Station","Signal Issue",20
+688,"Bloor Station","Signal Issue",41
+689,"Kennedy BD Station","Signal Issue",26
+690,"Kipling Station","Weather Conditions",32
+691,"Kennedy BD Station","Mechanical Failure",1
+692,"Kipling Station","Passenger Assistance",60
+693,"Finch Station","Signal Issue",19
+694,"Finch Station","Passenger Assistance",21
+695,"Union Station","Passenger Assistance",17
+696,"Kennedy BD Station","Signal Issue",56
+697,"Bloor Station","Mechanical Failure",48
+698,"Union Station","Mechanical Failure",7
+699,"Kipling Station","Signal Issue",43
+700,"Dundas Station","Weather Conditions",22
+701,"Kipling Station","Mechanical Failure",9
+702,"Bloor Station","Passenger Assistance",8
+703,"Finch Station","Signal Issue",22
+704,"Kennedy BD Station","Mechanical Failure",28
+705,"Kennedy BD Station","Mechanical Failure",6
+706,"College Station","Signal Issue",13
+707,"Union Station","Weather Conditions",45
+708,"Eglinton Station","Signal Issue",29
+709,"Union Station","Weather Conditions",17
+710,"Kipling Station","Weather Conditions",22
+711,"Eglinton Station","Weather Conditions",24
+712,"Bloor Station","Weather Conditions",44
+713,"Kipling Station","Signal Issue",21
+714,"Union Station","Passenger Assistance",20
+715,"Kennedy BD Station","Mechanical Failure",4
+716,"Kennedy BD Station","Weather Conditions",19
+717,"College Station","Passenger Assistance",54
+718,"Kennedy BD Station","Signal Issue",38
+719,"Union Station","Passenger Assistance",22
+720,"Finch Station","Signal Issue",40
+721,"Bloor Station","Passenger Assistance",45
+722,"Bloor Station","Signal Issue",11
+723,"College Station","Mechanical Failure",15
+724,"College Station","Signal Issue",6
+725,"College Station","Passenger Assistance",51
+726,"Bloor Station","Weather Conditions",44
+727,"Bloor Station","Weather Conditions",59
+728,"Kennedy BD Station","Weather Conditions",53
+729,"Kipling Station","Mechanical Failure",50
+730,"Bloor Station","Mechanical Failure",9
+731,"Kipling Station","Passenger Assistance",45
+732,"Kipling Station","Mechanical Failure",29
+733,"Union Station","Signal Issue",32
+734,"Union Station","Mechanical Failure",41
+735,"Kennedy BD Station","Signal Issue",2
+736,"College Station","Signal Issue",25
+737,"Finch Station","Passenger Assistance",23
+738,"Union Station","Passenger Assistance",19
+739,"Kipling Station","Signal Issue",57
+740,"Union Station","Weather Conditions",26
+741,"College Station","Passenger Assistance",52
+742,"Kipling Station","Weather Conditions",38
+743,"Union Station","Weather Conditions",26
+744,"College Station","Weather Conditions",31
+745,"Kennedy BD Station","Weather Conditions",21
+746,"Dundas Station","Mechanical Failure",45
+747,"Finch Station","Passenger Assistance",17
+748,"Bloor Station","Signal Issue",59
+749,"Dundas Station","Weather Conditions",48
+750,"Kennedy BD Station","Mechanical Failure",34
+751,"Bloor Station","Signal Issue",57
+752,"Finch Station","Signal Issue",33
+753,"Eglinton Station","Weather Conditions",41
+754,"College Station","Mechanical Failure",16
+755,"Kennedy BD Station","Weather Conditions",30
+756,"Bloor Station","Weather Conditions",50
+757,"Union Station","Weather Conditions",1
+758,"Finch Station","Passenger Assistance",23
+759,"Kipling Station","Mechanical Failure",10
+760,"College Station","Passenger Assistance",45
+761,"Eglinton Station","Passenger Assistance",60
+762,"Kennedy BD Station","Passenger Assistance",40
+763,"College Station","Weather Conditions",22
+764,"Kennedy BD Station","Mechanical Failure",2
+765,"Union Station","Passenger Assistance",15
+766,"Dundas Station","Passenger Assistance",47
+767,"Eglinton Station","Weather Conditions",31
+768,"Union Station","Passenger Assistance",11
+769,"Finch Station","Mechanical Failure",54
+770,"Finch Station","Passenger Assistance",21
+771,"Kipling Station","Weather Conditions",27
+772,"Kipling Station","Mechanical Failure",22
+773,"Kipling Station","Weather Conditions",16
+774,"Eglinton Station","Passenger Assistance",9
+775,"Union Station","Signal Issue",27
+776,"Dundas Station","Mechanical Failure",58
+777,"College Station","Mechanical Failure",49
+778,"Bloor Station","Mechanical Failure",29
+779,"Eglinton Station","Mechanical Failure",21
+780,"College Station","Passenger Assistance",46
+781,"Kipling Station","Mechanical Failure",8
+782,"Bloor Station","Weather Conditions",41
+783,"Dundas Station","Weather Conditions",36
+784,"Union Station","Passenger Assistance",21
+785,"Finch Station","Mechanical Failure",29
+786,"Kipling Station","Mechanical Failure",58
+787,"Union Station","Signal Issue",52
+788,"Bloor Station","Weather Conditions",1
+789,"Finch Station","Passenger Assistance",51
+790,"Union Station","Mechanical Failure",57
+791,"College Station","Passenger Assistance",51
+792,"Union Station","Weather Conditions",28
+793,"Kennedy BD Station","Mechanical Failure",25
+794,"College Station","Passenger Assistance",47
+795,"Union Station","Mechanical Failure",48
+796,"Dundas Station","Weather Conditions",44
+797,"Eglinton Station","Passenger Assistance",12
+798,"Eglinton Station","Signal Issue",11
+799,"Eglinton Station","Passenger Assistance",34
+800,"Kipling Station","Passenger Assistance",52
+801,"Bloor Station","Passenger Assistance",6
+802,"Finch Station","Mechanical Failure",53
+803,"Eglinton Station","Weather Conditions",17
+804,"Kipling Station","Mechanical Failure",15
+805,"Kipling Station","Weather Conditions",3
+806,"Eglinton Station","Mechanical Failure",15
+807,"Eglinton Station","Signal Issue",3
+808,"Kipling Station","Passenger Assistance",46
+809,"Bloor Station","Signal Issue",49
+810,"Union Station","Passenger Assistance",36
+811,"Bloor Station","Signal Issue",45
+812,"Finch Station","Mechanical Failure",20
+813,"Bloor Station","Passenger Assistance",38
+814,"Finch Station","Mechanical Failure",32
+815,"Bloor Station","Signal Issue",10
+816,"Dundas Station","Mechanical Failure",52
+817,"Union Station","Mechanical Failure",46
+818,"Dundas Station","Signal Issue",49
+819,"Kennedy BD Station","Weather Conditions",8
+820,"Kennedy BD Station","Mechanical Failure",27
+821,"Bloor Station","Passenger Assistance",54
+822,"Bloor Station","Passenger Assistance",9
+823,"Bloor Station","Signal Issue",10
+824,"Finch Station","Weather Conditions",14
+825,"Eglinton Station","Passenger Assistance",57
+826,"Kennedy BD Station","Weather Conditions",29
+827,"Eglinton Station","Signal Issue",34
+828,"Finch Station","Weather Conditions",42
+829,"Union Station","Mechanical Failure",31
+830,"Union Station","Mechanical Failure",9
+831,"Eglinton Station","Signal Issue",55
+832,"Kennedy BD Station","Weather Conditions",48
+833,"Bloor Station","Mechanical Failure",19
+834,"Dundas Station","Passenger Assistance",1
+835,"Bloor Station","Weather Conditions",54
+836,"Union Station","Passenger Assistance",47
+837,"Union Station","Passenger Assistance",29
+838,"Union Station","Mechanical Failure",43
+839,"Kennedy BD Station","Mechanical Failure",27
+840,"Eglinton Station","Signal Issue",17
+841,"Bloor Station","Passenger Assistance",53
+842,"Kipling Station","Passenger Assistance",24
+843,"Dundas Station","Mechanical Failure",43
+844,"Kennedy BD Station","Mechanical Failure",26
+845,"Kipling Station","Mechanical Failure",17
+846,"College Station","Passenger Assistance",13
+847,"Kipling Station","Signal Issue",24
+848,"Eglinton Station","Mechanical Failure",40
+849,"Bloor Station","Signal Issue",60
+850,"Union Station","Passenger Assistance",25
+851,"Kennedy BD Station","Weather Conditions",49
+852,"Kennedy BD Station","Weather Conditions",10
+853,"Finch Station","Passenger Assistance",49
+854,"Kennedy BD Station","Mechanical Failure",59
+855,"Finch Station","Signal Issue",2
+856,"Kennedy BD Station","Passenger Assistance",55
+857,"Finch Station","Signal Issue",23
+858,"Kennedy BD Station","Mechanical Failure",8
+859,"Eglinton Station","Passenger Assistance",34
+860,"Eglinton Station","Weather Conditions",24
+861,"Finch Station","Weather Conditions",6
+862,"Union Station","Passenger Assistance",29
+863,"Union Station","Weather Conditions",5
+864,"Kennedy BD Station","Mechanical Failure",40
+865,"Bloor Station","Weather Conditions",21
+866,"Eglinton Station","Weather Conditions",35
+867,"College Station","Mechanical Failure",33
+868,"Union Station","Passenger Assistance",21
+869,"Kipling Station","Weather Conditions",44
+870,"Dundas Station","Passenger Assistance",27
+871,"Finch Station","Passenger Assistance",55
+872,"College Station","Passenger Assistance",29
+873,"Bloor Station","Signal Issue",1
+874,"Kennedy BD Station","Weather Conditions",49
+875,"Kennedy BD Station","Weather Conditions",21
+876,"Bloor Station","Mechanical Failure",48
+877,"Eglinton Station","Signal Issue",25
+878,"Kennedy BD Station","Signal Issue",2
+879,"Union Station","Passenger Assistance",47
+880,"Dundas Station","Passenger Assistance",32
+881,"Kennedy BD Station","Signal Issue",54
+882,"College Station","Mechanical Failure",45
+883,"Finch Station","Passenger Assistance",37
+884,"College Station","Mechanical Failure",25
+885,"Eglinton Station","Signal Issue",49
+886,"Kipling Station","Passenger Assistance",42
+887,"Eglinton Station","Passenger Assistance",43
+888,"Kennedy BD Station","Weather Conditions",49
+889,"Finch Station","Passenger Assistance",15
+890,"Kennedy BD Station","Mechanical Failure",49
+891,"Union Station","Signal Issue",24
+892,"Union Station","Mechanical Failure",23
+893,"Kennedy BD Station","Signal Issue",33
+894,"Union Station","Signal Issue",16
+895,"Union Station","Signal Issue",50
+896,"Eglinton Station","Signal Issue",31
+897,"Kennedy BD Station","Passenger Assistance",49
+898,"Bloor Station","Passenger Assistance",44
+899,"Union Station","Weather Conditions",38
+900,"Bloor Station","Passenger Assistance",57
+901,"Kennedy BD Station","Signal Issue",24
+902,"Kennedy BD Station","Signal Issue",22
+903,"Kennedy BD Station","Weather Conditions",38
+904,"Kennedy BD Station","Mechanical Failure",5
+905,"Dundas Station","Passenger Assistance",12
+906,"Kennedy BD Station","Weather Conditions",43
+907,"Finch Station","Passenger Assistance",58
+908,"College Station","Weather Conditions",43
+909,"Bloor Station","Weather Conditions",10
+910,"Kennedy BD Station","Signal Issue",11
+911,"Dundas Station","Weather Conditions",39
+912,"Kipling Station","Weather Conditions",9
+913,"Dundas Station","Weather Conditions",41
+914,"Eglinton Station","Mechanical Failure",32
+915,"College Station","Mechanical Failure",58
+916,"Finch Station","Weather Conditions",4
+917,"Eglinton Station","Passenger Assistance",57
+918,"College Station","Signal Issue",41
+919,"Bloor Station","Weather Conditions",52
+920,"Kipling Station","Signal Issue",47
+921,"Kipling Station","Passenger Assistance",51
+922,"Eglinton Station","Passenger Assistance",48
+923,"Kipling Station","Passenger Assistance",46
+924,"Kipling Station","Passenger Assistance",41
+925,"Union Station","Mechanical Failure",27
+926,"Kennedy BD Station","Signal Issue",18
+927,"Bloor Station","Mechanical Failure",3
+928,"Dundas Station","Passenger Assistance",12
+929,"Finch Station","Signal Issue",20
+930,"Bloor Station","Weather Conditions",33
+931,"Kennedy BD Station","Mechanical Failure",26
+932,"College Station","Signal Issue",14
+933,"Bloor Station","Passenger Assistance",46
+934,"Bloor Station","Passenger Assistance",6
+935,"Kipling Station","Mechanical Failure",51
+936,"Bloor Station","Passenger Assistance",25
+937,"College Station","Passenger Assistance",41
+938,"Union Station","Mechanical Failure",9
+939,"Bloor Station","Mechanical Failure",30
+940,"Finch Station","Signal Issue",49
+941,"Bloor Station","Passenger Assistance",8
+942,"Kipling Station","Signal Issue",18
+943,"Finch Station","Signal Issue",40
+944,"Bloor Station","Weather Conditions",20
+945,"Bloor Station","Weather Conditions",18
+946,"Dundas Station","Weather Conditions",1
+947,"Union Station","Mechanical Failure",25
+948,"Finch Station","Passenger Assistance",33
+949,"Dundas Station","Mechanical Failure",36
+950,"Finch Station","Mechanical Failure",56
+951,"Kennedy BD Station","Weather Conditions",16
+952,"Dundas Station","Passenger Assistance",56
+953,"College Station","Signal Issue",41
+954,"Finch Station","Signal Issue",59
+955,"Dundas Station","Weather Conditions",28
+956,"Dundas Station","Mechanical Failure",45
+957,"Finch Station","Mechanical Failure",36
+958,"Finch Station","Signal Issue",2
+959,"Eglinton Station","Mechanical Failure",53
+960,"Finch Station","Signal Issue",33
+961,"Kennedy BD Station","Passenger Assistance",56
+962,"College Station","Mechanical Failure",3
+963,"Dundas Station","Passenger Assistance",53
+964,"Bloor Station","Passenger Assistance",45
+965,"Bloor Station","Mechanical Failure",9
+966,"Bloor Station","Weather Conditions",36
+967,"Dundas Station","Signal Issue",17
+968,"Finch Station","Passenger Assistance",47
+969,"Finch Station","Mechanical Failure",38
+970,"Kipling Station","Passenger Assistance",14
+971,"Eglinton Station","Mechanical Failure",27
+972,"Eglinton Station","Passenger Assistance",55
+973,"Kennedy BD Station","Weather Conditions",41
+974,"Kennedy BD Station","Passenger Assistance",35
+975,"Eglinton Station","Weather Conditions",26
+976,"Finch Station","Passenger Assistance",51
+977,"Kennedy BD Station","Weather Conditions",49
+978,"Kennedy BD Station","Weather Conditions",17
+979,"Union Station","Signal Issue",57
+980,"Eglinton Station","Passenger Assistance",14
+981,"College Station","Signal Issue",4
+982,"College Station","Passenger Assistance",17
+983,"College Station","Mechanical Failure",50
+984,"Dundas Station","Signal Issue",14
+985,"Union Station","Mechanical Failure",27
+986,"Union Station","Signal Issue",60
+987,"Kennedy BD Station","Passenger Assistance",12
+988,"Dundas Station","Mechanical Failure",59
+989,"College Station","Signal Issue",46
+990,"Eglinton Station","Passenger Assistance",36
+991,"College Station","Passenger Assistance",43
+992,"Union Station","Passenger Assistance",36
+993,"College Station","Passenger Assistance",7
+994,"Bloor Station","Weather Conditions",27
+995,"Bloor Station","Signal Issue",28
+996,"Bloor Station","Signal Issue",24
+997,"Bloor Station","Signal Issue",9
+998,"Dundas Station","Passenger Assistance",44
+999,"Kennedy BD Station","Passenger Assistance",60
+1000,"Dundas Station","Signal Issue",34
